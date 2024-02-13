@@ -1,3 +1,6 @@
+body{
+    overflow-x:hidden;
+}
 /*Start-Header*/
 #Main-Header .navbar {
     margin-bottom: 0px;
@@ -334,7 +337,12 @@
     color: #ecf0f1;
 
 }
-
+#Main-Education h3 {
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(0 0 0 / 23%);
+    text-align: center;
+}
 #Main-Education h2 {
     font-family: 'oswald' sans-serif;
     font-weight: bold;
@@ -348,7 +356,6 @@
 #Main-Education .btn-default {
     border-radius: 0px;
     background-color: #f1c40f;
-    margin-left: 600px;
     margin-bottom: 20px;
     transition: 0.8s all ease-out;
 }
@@ -454,6 +461,7 @@
 /*Start-Login*/
 #Main-Login a {
     border-radius: 0;
+    margin-bottom:15px;
 }
 
 /*End-Login*/
@@ -461,6 +469,7 @@
 /*Start-Register*/
 #Main-Register a {
     border-radius: 0;
+    margin-bottom: 15px;
 }
 
 #Main-Register label {
@@ -489,6 +498,7 @@
 /*Start-Forget*/
 #Main-Forget a {
     border-radius: 0;
+    margin-bottom: 15px;
 }
 
 #Main-Forget input {
