@@ -14,6 +14,7 @@ body{
 #Main-Header .navbar-default {
     background-color: #f1c40f;
     border-color: #f1c40f;
+    border-radius: 0;
 }
 
 #Main-Header .navbar-default .navbar-nav>.active>a,
@@ -214,10 +215,16 @@ body{
 
 /*End-Footer*/
 /*Start-Slider*/
-.carousel-caption {
-    top: 400px;
-    bottom: 0px;
+.carousel-caption{
+    bottom: 300px;
 }
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .carousel-caption{
+       font-size: 15px;
+       bottom: 40px;
+    }
+ }
 
 .carousel-caption h1 {
     color: #2d3436;
