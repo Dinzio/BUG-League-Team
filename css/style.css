@@ -1,13 +1,15 @@
-body{
-    overflow-x:hidden;
+body {
+    overflow-x: hidden;
 }
+
 /*Start-Header*/
 #Main-Header .navbar {
     margin-bottom: 0px;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
 }
-#Main-Header .navbar-brand{
+
+#Main-Header .navbar-brand {
     padding: 12px 15px;
 }
 
@@ -55,7 +57,7 @@ body{
 #Main-Content {
     width: 100%;
     height: auto;
-    font-family: 'oswald' sans-serif;
+    font-family: 'oswald'sans-serif;
     background-color: rgba(52, 73, 94, 0.9);
     background-image: url('../imgs/admission.png');
     background-size: contain;
@@ -72,7 +74,7 @@ body{
 
 #Main-Content h1 {
     color: #f1c40f;
-    font-family: 'Oswald' sans-serif;
+    font-family: 'Oswald'sans-serif;
 
 }
 
@@ -87,6 +89,7 @@ body{
     color: #fff;
     transition: 0.8s all ease-out;
 }
+
 /*
 #Main-Content .btn-default:hover{
     border-radius: 50px;
@@ -215,16 +218,17 @@ body{
 
 /*End-Footer*/
 /*Start-Slider*/
-.carousel-caption{
+.carousel-caption {
     bottom: 300px;
 }
+
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
-    .carousel-caption{
-       font-size: 15px;
-       bottom: 40px;
+@media (max-width: 768px) {
+    .carousel-caption {
+        font-size: 15px;
+        bottom: 40px;
     }
- }
+}
 
 .carousel-caption h1 {
     color: #2d3436;
@@ -257,7 +261,8 @@ body{
     font-weight: bold;
 
 }
-#Main-About h2{
+
+#Main-About h2 {
     background-color: rgba(52, 73, 94, 0.9);
     color: #ffffff;
 }
@@ -282,7 +287,7 @@ body{
     width: 100%;
     height: auto;
     background-color: rgba(52, 73, 94, 0.9);
-    font-family: 'oswald' sans-serif;
+    font-family: 'oswald'sans-serif;
     background-image: url('../imgs/admission.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -331,7 +336,7 @@ body{
 /*End-Events*/
 /*Start-Education*/
 #Main-Education {
-    font-family: 'oswald' sans-serif;
+    font-family: 'oswald'sans-serif;
     background-color: rgba(52, 73, 94, 0.9);
     background-image: url('../imgs/admission.png');
     background-size: contain;
@@ -339,19 +344,21 @@ body{
 }
 
 #Main-Education p {
-    font-family: 'oswald' sans-serif;
+    font-family: 'oswald'sans-serif;
     font-size: medium;
     color: #ecf0f1;
 
 }
+
 #Main-Education h3 {
     color: #fff;
     font-size: 20px;
     background-color: rgb(0 0 0 / 23%);
     text-align: center;
 }
+
 #Main-Education h2 {
-    font-family: 'oswald' sans-serif;
+    font-family: 'oswald'sans-serif;
     font-weight: bold;
     color: #ecf0f1;
 }
@@ -367,7 +374,7 @@ body{
     transition: 0.8s all ease-out;
 }
 
-#Main-Education .btn-default:hover{
+#Main-Education .btn-default:hover {
     color: #ffffff;
 }
 
@@ -398,6 +405,7 @@ body{
     background-color: #f1c40f;
     border-color: #f1c40f;
 }
+
 /*
 #Main-Contact a:hover{
     border-radius: 50px;
@@ -468,7 +476,7 @@ body{
 /*Start-Login*/
 #Main-Login a {
     border-radius: 0;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 /*End-Login*/
@@ -513,3 +521,20 @@ body{
 }
 
 /*End-Forget*/
+/*Start of Thank Page*/
+#Thanks img {
+    margin-top: 150px;
+}
+
+#Thanks a {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 150px;
+    border-radius: 0;
+}
+
+#Thanks a:hover {
+    color: #ffffff;
+    border-radius: 0;
+}
